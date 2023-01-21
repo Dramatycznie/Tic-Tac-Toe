@@ -1,6 +1,6 @@
 import random
 import time
-print(Tic, Tac, Toe)
+print("Tic, Tac, Toe")
 player_name = input("What is your name? ")
 player_wins = 0
 computer_wins = 0
