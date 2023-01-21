@@ -88,7 +88,6 @@ while True:
         play_again = input("Do you want to play again? (y/n)")
         if play_again.upper() in ["Y", "YES"]:
             board = [" " for x in range(9)]  # Reset the board
-            continue
             break
         elif play_again.upper() in ["N", "NO"]:
             print("Thanks for playing!")
